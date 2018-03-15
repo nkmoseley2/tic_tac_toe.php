@@ -1,11 +1,4 @@
 <?php
-/*
- * Please fix each todo in this file in order.
- * Starting from the top.
- * When you are finished and run it, the tests should pass and you should be able to play.
- *
- * If you find other bugs, fix them as well.
- */
 
 
 if (PHP_SAPI !== 'cli')
@@ -15,9 +8,6 @@ if (PHP_SAPI !== 'cli')
 }
 
 
-/**
- * Keeps track of pieces
- */
 class Board
 {
     const ROWS = 3;
